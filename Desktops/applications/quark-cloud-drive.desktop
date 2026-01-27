@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Quark Cloud Drive
+Comment=夸克网盘
+Exec=wine /home/Prayrain/Games/QuarkDownload/quark-cloud-drive/QuarkCloudDrive.exe
+Icon=/home/Prayrain/Pictures/Icons/QuarkDownloads.png
+Categories=Network;
+Terminal=false
+StartupWMClass=QuarkCloudDrive.exe

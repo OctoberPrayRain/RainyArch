@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Visual Dedigner Help
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\Visual Dedigner Help.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/HELP/
+Icon=0E7B_VISUALDESIGNER.0
+StartupWMClass=visualdesigner.chm

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=X Minecraft Launcher
+Comment=X Minecraft Launcher (xmcl)
+Exec=/home/Prayrain/Games/xmcl-0.51.6-x64/xmcl
+Icon=/home/Prayrain/Pictures/Icons/minecraft.png
+Categories=Game;
+Terminal=false
+StartupWMClass=xmcl

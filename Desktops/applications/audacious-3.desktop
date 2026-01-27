@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=audacious
+MimeType=audio/mpeg;
+Name=audacious
+NoDisplay=true
+Type=Application

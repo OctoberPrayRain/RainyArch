@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=µVision IDE
+MimeType=application/x-wine-extension-uvmpw;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "UVMPWFILE" %f
+NoDisplay=true
+StartupNotify=true
+Icon=0FC0_UV4.0

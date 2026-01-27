@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=夸克网盘
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\users\\\\Prayrain\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\夸克网盘.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/users/Prayrain/AppData/Local/Programs/quark-cloud-drive
+Icon=843E_QuarkCloudDrive.0
+StartupWMClass=quarkclouddrive.exe

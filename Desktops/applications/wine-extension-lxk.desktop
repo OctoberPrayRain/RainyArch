@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=A Wine application
+MimeType=application/x-wine-extension-lxk;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "Proteus 8 Professional.lxk" %f
+NoDisplay=true
+StartupNotify=true

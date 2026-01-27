@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MiniLED Display HID
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\users\\\\Prayrain\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\MiniLED Display HID\\\\MiniLED Display HID.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/Games/LEDDisplay
+Icon=C27D_MiniLED Display HID.0
+StartupWMClass=miniled display hid.exe

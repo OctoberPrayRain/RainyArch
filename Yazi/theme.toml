@@ -1,0 +1,36 @@
+# 根据你提供的 Yazi 0.4.0+ 官方文档整合
+[mgr]
+border_symbol = "│"
+border_style  = { fg = "#45475a" }
+cwd = { fg = "#7dd3fc" }
+
+[status]
+# 将状态栏背景设为 reset，这样它就会变成透明或跟终端背景一致
+overall = { fg = "reset", bg = "reset" }
+# 同时清空分隔符，防止残留
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+[mode]
+normal_main = { fg = "#000000", bg = "#7dd3fc", bold = true }
+normal_alt  = { fg = "#7dd3fc", bg = "#45475a" }
+select_main = { fg = "#000000", bg = "#86efac", bold = true }
+select_alt  = { fg = "#86efac", bg = "#45475a" }
+unset_main  = { fg = "#000000", bg = "#fde047", bold = true }
+unset_alt   = { fg = "#fde047", bg = "#45475a" }
+
+[tabs]
+active   = { fg = "#000000", bg = "#7dd3fc", bold = true }
+inactive = { fg = "#cdd6f4", bg = "#45475a" }
+
+[filetype]
+rules = [
+    { url = "*/", fg = "#7dd3fc", bold = true },
+]
+
+
+
+[input]
+border   = { fg = "#7dd3fc" }
+title    = { fg = "#7dd3fc" }
+selected = { bg = "#45475a" }

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=µVision IDE
+MimeType=application/x-wine-extension-uv2;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "UV2FILE" %f
+NoDisplay=true
+StartupNotify=true
+Icon=0FC0_UV4.0

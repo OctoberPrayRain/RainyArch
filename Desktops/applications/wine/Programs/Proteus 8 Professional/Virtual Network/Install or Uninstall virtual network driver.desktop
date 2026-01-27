@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Install or Uninstall virtual network driver
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\Virtual Network\\\\Install or Uninstall virtual network driver.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/DRIVERS/
+Icon=FBD8_VirtualNetworkDriver.0
+StartupWMClass=virtualnetworkdriver.exe

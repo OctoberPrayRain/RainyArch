@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PDS
+MimeType=application/x-wine-extension-pdspnl;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "Proteus 8 Professional.pdspnl" %f
+NoDisplay=true
+StartupNotify=true
+Icon=37B5_PDS.0

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=smplayer
+MimeType=video/mp4;
+Name=smplayer
+NoDisplay=true
+Type=Application

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Virtual USB Help
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\Virtual USB\\\\Virtual USB Help.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/HELP/
+Icon=E3A0_USB.0
+StartupWMClass=usb.chm

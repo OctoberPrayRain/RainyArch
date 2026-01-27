@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Pack Installer
+MimeType=application/x-java-pack200;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "PACKFILE" %f
+NoDisplay=true
+StartupNotify=true
+Icon=B5C7_PackInstaller.0

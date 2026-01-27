@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall MiniLED Display HID
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\users\\\\Prayrain\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\MiniLED Display HID\\\\Uninstall MiniLED Display HID.lnk"
+Type=Application
+StartupNotify=true
+Comment=Uninstall MiniLED Display HID¡£
+Icon=0A1A_uninstall.0
+StartupWMClass=uninstall.exe

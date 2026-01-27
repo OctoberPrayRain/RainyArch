@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=QQ
+Exec=linuxqq --ozone-platform=x11
+Terminal=false
+Type=Application
+Icon=qq
+StartupWMClass=QQ
+Categories=Network;
+Comment=QQ

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Licence Manager
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\Licence Manager.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/BIN/
+Icon=3D35_LICENCE.0
+StartupWMClass=licence.exe

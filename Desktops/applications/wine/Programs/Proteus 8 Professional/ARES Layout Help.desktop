@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ARES Layout Help
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\ARES Layout Help.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/HELP/
+Icon=D3B8_ARES.0
+StartupWMClass=ares.chm

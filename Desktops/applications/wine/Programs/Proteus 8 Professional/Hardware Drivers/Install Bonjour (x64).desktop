@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Install Bonjour (x64)
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\Hardware Drivers\\\\Install Bonjour (x64).lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/DRIVERS/
+Icon=01FB_Bonjour64.0
+StartupWMClass=bonjour64.msi

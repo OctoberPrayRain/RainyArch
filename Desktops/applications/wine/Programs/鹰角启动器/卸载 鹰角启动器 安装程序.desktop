@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=卸载 鹰角启动器 安装程序
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\鹰角启动器\\\\卸载 鹰角启动器 安装程序.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/Games/Hypergryph Launcher
+Icon=A199_Uninstall.0
+StartupWMClass=uninstall.exe

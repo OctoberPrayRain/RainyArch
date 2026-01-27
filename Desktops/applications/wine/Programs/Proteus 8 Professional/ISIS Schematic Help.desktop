@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ISIS Schematic Help
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\ISIS Schematic Help.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/HELP/
+Icon=C4AF_ISIS.0
+StartupWMClass=isis.chm

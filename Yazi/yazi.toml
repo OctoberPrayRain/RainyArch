@@ -1,0 +1,26 @@
+[manager]
+layout        = [ 1, 4, 3 ]
+sort_by        = "alphabetical"
+sort_dir_first = true
+linemode       = "size"
+
+[opener]
+uwsm-open = [
+    { run = 'uwsm app -- xdg-open "$1"', orphan = true, desc = "Open" }
+]
+
+typora = [
+    { run = 'uwsm app -- typora "$1"', orphan = true, desc = "Typora" }
+]
+edit = [
+    { run = '${EDITOR:-vi} "$1"', desc = "$EDITOR", block = true, for = "unix" },
+]
+
+
+[open]
+rules = [
+    { name = "*.md", use = [ "typora", "edit" ] },
+    { mime = "text/*", use = [ "edit" ] },
+    { mime = "image/*", use = [ "reveal" ] },
+    { name = "*", use = [ "uwsm-open" ] },
+]

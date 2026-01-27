@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Keil uVision5
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Keil uVision5.LNK"
+Type=Application
+StartupNotify=true
+Comment=Keil uVision5
+Path=/home/Prayrain/.wine/drive_c/users/Prayrain/AppData/Local/Keil_v5
+Icon=0FC0_UV4.0
+StartupWMClass=uv4.exe

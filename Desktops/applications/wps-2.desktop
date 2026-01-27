@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=wps
+MimeType=application/wps-office.doc;
+Name=wps
+NoDisplay=true
+Type=Application

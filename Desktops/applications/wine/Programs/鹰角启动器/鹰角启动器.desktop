@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=鹰角启动器
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\鹰角启动器\\\\鹰角启动器.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/Games/Hypergryph Launcher
+Icon=A75B_Launcher.0
+StartupWMClass=launcher.exe

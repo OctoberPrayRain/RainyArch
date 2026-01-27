@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Arknights: Endfield
+Comment=Play Arknights: Endfield via Lutris
+Exec=lutris lutris:rungame/arknightsendfield
+Icon=~/Pictures/Icons/arknightsendfield.png
+Categories=Game;
+Terminal=false

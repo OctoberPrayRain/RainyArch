@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Install or Uninstall virtual USB Driver
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\Virtual USB\\\\Install or Uninstall virtual USB Driver.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/DRIVERS/
+Icon=71C6_VirtualUSBDriver.0
+StartupWMClass=virtualusbdriver.exe

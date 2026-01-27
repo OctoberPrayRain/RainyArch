@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=µVision IDE
+MimeType=application/wps-office.dpt;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "DPTFILE" %f
+NoDisplay=true
+StartupNotify=true
+Icon=0FC0_UV4.0

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Arknights
+Comment=明日方舟启动
+Exec=/home/Prayrain/Android/Sdk/emulator/emulator -avd Arknights
+Terminal=false
+Icon=/home/Prayrain/Pictures/Icons/Arknights.png
+Categories=Development;

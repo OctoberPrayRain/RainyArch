@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Proteus Help
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Proteus 8 Professional\\\\Proteus Help.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/Prayrain/.wine/drive_c/Program Files (x86)/Labcenter Electronics/Proteus 8 Professional/HELP/
+Icon=B760_pds.0
+StartupWMClass=pds.chm

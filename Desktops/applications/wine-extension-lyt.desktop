@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PDS
+MimeType=application/x-wine-extension-lyt;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "Proteus 8 Professional.lyt" %f
+NoDisplay=true
+StartupNotify=true
+Icon=37B5_PDS.0

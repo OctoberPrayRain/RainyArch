@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=µVision IDE
+MimeType=application/x-wine-extension-uvprojx;
+Exec=env "WINEPREFIX=/home/Prayrain/.wine" wine start /ProgIDOpen "UVPROJXFILE" %f
+NoDisplay=true
+StartupNotify=true
+Icon=6FD5_UV4.0
