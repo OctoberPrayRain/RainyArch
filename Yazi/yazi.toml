@@ -1,4 +1,5 @@
 [manager]
+
 layout        = [ 1, 4, 3 ]
 sort_by        = "alphabetical"
 sort_dir_first = true
@@ -6,21 +7,32 @@ linemode       = "size"
 
 [opener]
 uwsm-open = [
-    { run = 'uwsm app -- xdg-open "$1"', orphan = true, desc = "Open" }
+    { run = "uwsm app -- xdg-open %s1", orphan = true, desc = "Open" }
 ]
 
 typora = [
-    { run = 'uwsm app -- typora "$1"', orphan = true, desc = "Typora" }
-]
-edit = [
-    { run = '${EDITOR:-vi} "$1"', desc = "$EDITOR", block = true, for = "unix" },
+    { run = "uwsm app -- typora %s1", orphan = true, desc = "Typora" }
 ]
 
+edit = [
+    { run = "${EDITOR:-vi} %s", desc = "$EDITOR", block = true, for = "unix" }
+]
+
+wps-pdf = [
+    { run = "uwsm app -- wpspdf %s1", orphan = true, desc = "WPS PDF" }
+]
+wine = [
+    { run = "wine %s1", orphan = true , desc = "wine with exe" }
+]
+
+nomacs = [
+    { run = "nomacs %s1", orphan = true, desc = "nomacs read picture" }
+]
 
 [open]
-rules = [
-    { name = "*.md", use = [ "typora", "edit" ] },
-    { mime = "text/*", use = [ "edit" ] },
-    { mime = "image/*", use = [ "reveal" ] },
-    { name = "*", use = [ "uwsm-open" ] },
+prepend_rules = [
+    { url = "*.exe", use = "wine" },
+    { url = "*.pdf", use = "wps-pdf" },
+    { mime = "image/*", use = "nomacs" },
+    { url = "*.md", use = [ "typora", "edit" ] }
 ]
